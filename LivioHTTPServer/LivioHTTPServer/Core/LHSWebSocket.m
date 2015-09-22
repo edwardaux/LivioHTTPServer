@@ -482,6 +482,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
     // For completeness, you should invoke [super didReceiveMessage:msg] in your method.
     
     // Notify delegate
+    NSLog(@"LHSWebSocket socket: %@ did receive message: %@", self, msg);
     if ([delegate respondsToSelector:@selector(webSocket:didReceiveMessage:)]) {
         [delegate webSocket:self didReceiveMessage:msg];
     }
@@ -496,6 +497,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
     // For completeness, you should invoke [super didReceiveMessage:msg] in your method.
     
     // Notify delegate
+    NSLog(@"LHSWebSocket socket: %@ did receive data: %@", self, data);
     if ([delegate respondsToSelector:@selector(webSocket:didReceiveData:)]) {
         [delegate webSocket:self didReceiveData:data];
     }
@@ -510,6 +512,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
     // Don't forget to invoke [super didClose] at the end of your method.
     
     // Notify delegate
+    NSLog(@"LHSWebSocket socket: %@ did close", self);
     if ([delegate respondsToSelector:@selector(webSocketDidClose:)]) {
         [delegate webSocketDidClose:self];
     }
