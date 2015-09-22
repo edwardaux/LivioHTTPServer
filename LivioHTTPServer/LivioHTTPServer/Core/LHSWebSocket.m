@@ -141,8 +141,6 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
         asyncSocket = socket;
         [asyncSocket setDelegate:self delegateQueue:websocketQueue];
         
-        isOpen = NO;
-        
         term = [[NSData alloc] initWithBytes:"\xFF" length:1];
     }
     return self;

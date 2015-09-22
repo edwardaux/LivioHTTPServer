@@ -45,7 +45,6 @@ extern NSString *const LHSWebSocketDidDieNotification;
     NSData *term;
 
     BOOL isStarted;
-    BOOL isOpen;
 }
 
 + (BOOL)isWebSocketRequest:(LHSMessage *)request;
