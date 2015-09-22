@@ -556,6 +556,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
 
 - (void)socket:(STCPSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
     // HTTPLogTrace();
+    NSLog(@"socket: %@ did read data: %@ with tag: %@", sock, data, @(tag));
     
     switch (tag) {
         case LHSTagHTTPRequestBody: {
