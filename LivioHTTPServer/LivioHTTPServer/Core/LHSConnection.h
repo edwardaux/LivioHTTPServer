@@ -35,7 +35,7 @@
 @class LHSMessage;
 @class LHSServer;
 @class LHSWebSocket;
-@class STCPSocket;
+@class GCDAsyncSocket;
 
 extern NSString *const LHSHTTPConnectionDidDieNotification;
 
@@ -44,7 +44,7 @@ extern NSString *const LHSHTTPConnectionDidDieNotification;
 
 @interface LHSConnection : NSObject {
     dispatch_queue_t connectionQueue;
-    STCPSocket *asyncSocket;
+    GCDAsyncSocket *asyncSocket;
     LHSConnectionConfig *config;
 
     BOOL started;
@@ -72,7 +72,7 @@ extern NSString *const LHSHTTPConnectionDidDieNotification;
     NSMutableArray *responseDataSizes;
 }
 
-- (id)initWithAsyncSocket:(STCPSocket *)newSocket configuration:(LHSConnectionConfig *)aConfig;
+- (id)initWithAsyncSocket:(GCDAsyncSocket *)newSocket configuration:(LHSConnectionConfig *)aConfig;
 
 - (void)start;
 - (void)stop;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D10E50A1BB0520200E9A728 /* LHSServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D10E5A51BB2F82100E9A728 /* CocoaAsyncSocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 5D10E5A31BB2F82100E9A728 /* CocoaAsyncSocket.framework.dSYM */; settings = {ASSET_TAGS = (); }; };
+		5D10E5A61BB2F82100E9A728 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D10E5A41BB2F82100E9A728 /* CocoaAsyncSocket.framework */; settings = {ASSET_TAGS = (); }; };
 		5D38109D1BA8927600B41AE3 /* LHSConnectionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D38109E1BA8927600B41AE3 /* LHSConnectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */; settings = {ASSET_TAGS = (); }; };
 		5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3CD6C21AA0F4B300987CC1 /* LivioHTTPServer-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,7 +71,6 @@
 		5D4834481A9E6A8200252386 /* LivioHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834471A9E6A8200252386 /* LivioHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D4834591A9E7B6900252386 /* LivioHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834581A9E7B6900252386 /* LivioHTTPServerTests.m */; };
 		5D48345A1A9E7B6900252386 /* LivioHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4833971A9E574400252386 /* LivioHTTPServer.framework */; };
-		5D77F9D71B56E20B0013F9A7 /* SuperSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */; };
 		5D77FA3F1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -93,6 +94,8 @@
 
 /* Begin PBXFileReference section */
 		5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSServerDelegate.h; path = LivioHTTPServer/Core/LHSServerDelegate.h; sourceTree = SOURCE_ROOT; };
+		5D10E5A31BB2F82100E9A728 /* CocoaAsyncSocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaAsyncSocket.framework.dSYM; path = ../../Carthage/Build/iOS/CocoaAsyncSocket.framework.dSYM; sourceTree = "<group>"; };
+		5D10E5A41BB2F82100E9A728 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../../Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSConnectionConfig.h; path = LivioHTTPServer/Core/LHSConnectionConfig.h; sourceTree = SOURCE_ROOT; };
 		5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSConnectionConfig.m; path = LivioHTTPServer/Core/LHSConnectionConfig.m; sourceTree = SOURCE_ROOT; };
 		5D3CD6BE1AA0F4B300987CC1 /* LivioHTTPServer_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LivioHTTPServer_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +145,6 @@
 		5D4834541A9E7B6900252386 /* LivioHTTPServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivioHTTPServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4834571A9E7B6900252386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4834581A9E7B6900252386 /* LivioHTTPServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivioHTTPServerTests.m; sourceTree = "<group>"; };
-		5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SuperSocket.framework; path = ../Carthage/Build/iOS/SuperSocket.framework; sourceTree = "<group>"; };
 		5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSWebSocketDelegate.h; path = LivioHTTPServer/Core/LHSWebSocketDelegate.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -166,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D77F9D71B56E20B0013F9A7 /* SuperSocket.framework in Frameworks */,
+				5D10E5A61BB2F82100E9A728 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +183,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D10E5A71BB2F82500E9A728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D10E5A31BB2F82100E9A728 /* CocoaAsyncSocket.framework.dSYM */,
+				5D10E5A41BB2F82100E9A728 /* CocoaAsyncSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D3CD6BF1AA0F4B300987CC1 /* LivioHTTPServer-Mac */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,7 +229,6 @@
 		5D48338D1A9E574400252386 = {
 			isa = PBXGroup;
 			children = (
-				5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */,
 				5D4833991A9E574400252386 /* LivioHTTPServer */,
 				5D4834551A9E7B6900252386 /* LivioHTTPServerTests */,
 				5D3CD6BF1AA0F4B300987CC1 /* LivioHTTPServer-Mac */,
@@ -241,6 +251,7 @@
 		5D4833991A9E574400252386 /* LivioHTTPServer */ = {
 			isa = PBXGroup;
 			children = (
+				5D10E5A71BB2F82500E9A728 /* Frameworks */,
 				5D4833B31A9E577000252386 /* Categories */,
 				5D4833BA1A9E577000252386 /* Mime */,
 				5D4833C11A9E577000252386 /* Responses */,
@@ -567,6 +578,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D10E5A51BB2F82100E9A728 /* CocoaAsyncSocket.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

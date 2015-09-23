@@ -1,7 +1,7 @@
 
 #import "LHSWebSocket.h"
 #import "LHSMessage.h"
-#import <SuperSocket/SuperSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 #import "NSNumber+LHSNumber.h"
 #import "NSData+LHSData.h"
 
@@ -49,7 +49,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
 #pragma clang diagnostic pop
 
 
-@interface LHSWebSocket () <STCPSocketDelegate>
+@interface LHSWebSocket () <GCDAsyncSocketDelegate>
 
 - (void)readRequestBody;
 - (void)sendResponseBody:(NSData *)bodyData;
@@ -119,7 +119,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
 
 @synthesize websocketQueue;
 
-- (id)initWithRequest:(LHSMessage *)aRequest socket:(STCPSocket *)socket {
+- (id)initWithRequest:(LHSMessage *)aRequest socket:(GCDAsyncSocket *)socket {
     // HTTPLogTrace();
     
     if (aRequest == nil) {
@@ -467,7 +467,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
         [data appendData:msgData];
     }
     
-    // Remember: STCPSocket is thread-safe
+    // Remember: GCDAsyncSocket is thread-safe
     [asyncSocket writeData:data withTimeout:LHSTimeoutNone tag:0];
 }
 
@@ -552,7 +552,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
 // |                     Payload Data continued ...                |
 // +---------------------------------------------------------------+
 
-- (void)socket:(STCPSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
+- (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
     // HTTPLogTrace();
     NSLog(@"socket: %@ did read data: %@ with tag: %@", sock, data, @(tag));
     
@@ -653,7 +653,7 @@ static inline NSUInteger WS_PAYLOAD_LENGTH(UInt8 frame) {
     }
 }
 
-- (void)socketDidDisconnect:(STCPSocket *)sock withError:(NSError *)error {
+- (void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)error {
     //	HTTPLogTrace2(@"%@[%p]: socketDidDisconnect:withError: %@", __FILE__, self, error);
     
     [self didClose];

@@ -31,12 +31,12 @@
 
 #import "LHSServerDelegate.h"
 
-@class STCPSocket;
+@class GCDAsyncSocket;
 @class LHSWebSocket;
 
 @interface LHSServer : NSObject <NSNetServiceDelegate> {
     // Underlying asynchronous TCP/IP socket
-    STCPSocket *asyncSocket;
+    GCDAsyncSocket *asyncSocket;
 
     // Dispatch queues
     dispatch_queue_t serverQueue;

@@ -1,12 +1,12 @@
 
 #import "LHSConnectionConfig.h"
 #import "LHSServer.h"
-#import <SuperSocket/SuperSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 #import "LHSConnection.h"
 #import "LHSWebSocket.h"
 
 
-@interface LHSServer () <STCPSocketDelegate>
+@interface LHSServer () <GCDAsyncSocketDelegate>
 
 @property (strong, atomic) NSMutableArray *mutableConnections;
 @property (strong, atomic) NSMutableArray *mutableWebSockets;
@@ -45,7 +45,7 @@
         dispatch_queue_set_specific(connectionQueue, IsOnConnectionQueueKey, nonNullUnusedPointer, NULL);
         
         // Initialize underlying GCD based tcp socket
-        asyncSocket = [[STCPSocket alloc] initWithDelegate:self delegateQueue:serverQueue];
+        asyncSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:serverQueue];
         
         // Use default connection class of HTTPConnection
         connectionClass = [LHSConnection class];
@@ -485,7 +485,7 @@
     return [[LHSConnectionConfig alloc] initWithServer:self documentRoot:documentRoot queue:connectionQueue];
 }
 
-- (void)socket:(STCPSocket *)sock didAcceptNewSocket:(STCPSocket *)newSocket {
+- (void)socket:(GCDAsyncSocket *)sock didAcceptNewSocket:(GCDAsyncSocket *)newSocket {
     LHSConnection *newConnection = (LHSConnection *)[[connectionClass alloc] initWithAsyncSocket:newSocket
                                                                                    configuration:[self config]];
     [connectionsLock lock];
