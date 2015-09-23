@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 github "livio/supersocket" "e523c3de71141020b39ead9a2edb004bb5c3d6ba"
+=======
+github "livio/SuperSocket" ~> 8.0
+>>>>>>> parent of 88db206... Replace supersocket with CocoaAsyncSocket

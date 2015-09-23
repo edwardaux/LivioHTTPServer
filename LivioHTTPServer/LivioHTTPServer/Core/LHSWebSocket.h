@@ -32,7 +32,7 @@
 #import "LHSWebSocketDelegate.h"
 
 @class LHSMessage;
-@class GCDAsyncSocket;
+@class STCPSocket;
 
 extern NSString *const LHSWebSocketDidDieNotification;
 
@@ -40,7 +40,7 @@ extern NSString *const LHSWebSocketDidDieNotification;
     dispatch_queue_t websocketQueue;
 
     LHSMessage *request;
-    GCDAsyncSocket *asyncSocket;
+    STCPSocket *asyncSocket;
 
     NSData *term;
 
@@ -49,7 +49,7 @@ extern NSString *const LHSWebSocketDidDieNotification;
 
 + (BOOL)isWebSocketRequest:(LHSMessage *)request;
 
-- (instancetype)initWithRequest:(LHSMessage *)request socket:(GCDAsyncSocket *)socket;
+- (instancetype)initWithRequest:(LHSMessage *)request socket:(STCPSocket *)socket;
 
 /**
  * Delegate option.
