@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5D10E50A1BB0520200E9A728 /* LHSServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D10E5B21BB3256500E9A728 /* SuperSocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 5D10E5B11BB3256500E9A728 /* SuperSocket.framework.dSYM */; settings = {ASSET_TAGS = (); }; };
+		5D10E5B21BB3256500E9A728 /* SuperSocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 5D10E5B11BB3256500E9A728 /* SuperSocket.framework.dSYM */; };
 		5D10E5B51BB3258C00E9A728 /* SuperSocket.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D10E5B11BB3256500E9A728 /* SuperSocket.framework.dSYM */; };
 		5D38109D1BA8927600B41AE3 /* LHSConnectionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D38109E1BA8927600B41AE3 /* LHSConnectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */; settings = {ASSET_TAGS = (); }; };
+		5D38109E1BA8927600B41AE3 /* LHSConnectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */; };
 		5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3CD6C21AA0F4B300987CC1 /* LivioHTTPServer-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D3CD6C91AA0F4B300987CC1 /* LivioHTTPServer_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3CD6BE1AA0F4B300987CC1 /* LivioHTTPServer_Mac.framework */; };
 		5D3CD6D01AA0F4B300987CC1 /* LivioHTTPServer_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD6CF1AA0F4B300987CC1 /* LivioHTTPServer_MacTests.m */; };
@@ -74,6 +74,25 @@
 		5D77F9D71B56E20B0013F9A7 /* SuperSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */; };
 		5D77FA3F1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFBFEBC1BD995960004CC87 /* NSData+LHSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834021A9E6A3900252386 /* NSData+LHSData.m */; };
+		BFFBFEBD1BD995960004CC87 /* NSNumber+LHSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834041A9E6A3900252386 /* NSNumber+LHSNumber.m */; };
+		BFFBFEBE1BD995960004CC87 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834061A9E6A3900252386 /* DDRange.m */; };
+		BFFBFEBF1BD995960004CC87 /* LHSMultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48340E1A9E6A4500252386 /* LHSMultipartFormDataParser.m */; };
+		BFFBFEC01BD995960004CC87 /* LHSMultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834101A9E6A4500252386 /* LHSMultipartMessageHeader.m */; };
+		BFFBFEC11BD995960004CC87 /* LHSMultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834121A9E6A4500252386 /* LHSMultipartMessageHeaderField.m */; };
+		BFFBFEC21BD995960004CC87 /* LHSAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48341A1A9E6A6100252386 /* LHSAsyncFileResponse.m */; };
+		BFFBFEC31BD995960004CC87 /* LHSDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48341C1A9E6A6100252386 /* LHSDataResponse.m */; };
+		BFFBFEC41BD995960004CC87 /* LHSDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48341E1A9E6A6100252386 /* LHSDynamicFileResponse.m */; };
+		BFFBFEC51BD995960004CC87 /* LHSErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834201A9E6A6100252386 /* LHSErrorResponse.m */; };
+		BFFBFEC61BD995960004CC87 /* LHSFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834221A9E6A6100252386 /* LHSFileResponse.m */; };
+		BFFBFEC71BD995960004CC87 /* LHSRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834241A9E6A6100252386 /* LHSRedirectResponse.m */; };
+		BFFBFEC81BD995960004CC87 /* LHSAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834321A9E6A6D00252386 /* LHSAuthenticationRequest.m */; };
+		BFFBFEC91BD995960004CC87 /* LHSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834341A9E6A6D00252386 /* LHSConnection.m */; };
+		BFFBFECA1BD995960004CC87 /* LHSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834361A9E6A6D00252386 /* LHSMessage.m */; };
+		BFFBFECB1BD995960004CC87 /* LHSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834391A9E6A6D00252386 /* LHSServer.m */; };
+		BFFBFECC1BD995960004CC87 /* LHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48343B1A9E6A6D00252386 /* LHSWebSocket.m */; };
+		BFFBFECD1BD995960004CC87 /* LHSConnectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */; };
+		BFFBFECF1BD995C90004CC87 /* SuperSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFBFECE1BD995C90004CC87 /* SuperSocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +179,7 @@
 		5D4834581A9E7B6900252386 /* LivioHTTPServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivioHTTPServerTests.m; sourceTree = "<group>"; };
 		5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SuperSocket.framework; path = ../Carthage/Build/iOS/SuperSocket.framework; sourceTree = "<group>"; };
 		5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSWebSocketDelegate.h; path = LivioHTTPServer/Core/LHSWebSocketDelegate.h; sourceTree = SOURCE_ROOT; };
+		BFFBFECE1BD995C90004CC87 /* SuperSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SuperSocket.framework; path = ../Carthage/Build/Mac/SuperSocket.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFBFECF1BD995C90004CC87 /* SuperSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +221,7 @@
 		5D10E5B31BB3256900E9A728 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFFBFECE1BD995C90004CC87 /* SuperSocket.framework */,
 				5D10E5B11BB3256500E9A728 /* SuperSocket.framework.dSYM */,
 				5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */,
 			);
@@ -629,6 +651,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFBFEBC1BD995960004CC87 /* NSData+LHSData.m in Sources */,
+				BFFBFEBD1BD995960004CC87 /* NSNumber+LHSNumber.m in Sources */,
+				BFFBFEBE1BD995960004CC87 /* DDRange.m in Sources */,
+				BFFBFEBF1BD995960004CC87 /* LHSMultipartFormDataParser.m in Sources */,
+				BFFBFEC01BD995960004CC87 /* LHSMultipartMessageHeader.m in Sources */,
+				BFFBFEC11BD995960004CC87 /* LHSMultipartMessageHeaderField.m in Sources */,
+				BFFBFEC21BD995960004CC87 /* LHSAsyncFileResponse.m in Sources */,
+				BFFBFEC31BD995960004CC87 /* LHSDataResponse.m in Sources */,
+				BFFBFEC41BD995960004CC87 /* LHSDynamicFileResponse.m in Sources */,
+				BFFBFEC51BD995960004CC87 /* LHSErrorResponse.m in Sources */,
+				BFFBFEC61BD995960004CC87 /* LHSFileResponse.m in Sources */,
+				BFFBFEC71BD995960004CC87 /* LHSRedirectResponse.m in Sources */,
+				BFFBFEC81BD995960004CC87 /* LHSAuthenticationRequest.m in Sources */,
+				BFFBFEC91BD995960004CC87 /* LHSConnection.m in Sources */,
+				BFFBFECA1BD995960004CC87 /* LHSMessage.m in Sources */,
+				BFFBFECB1BD995960004CC87 /* LHSServer.m in Sources */,
+				BFFBFECC1BD995960004CC87 /* LHSWebSocket.m in Sources */,
+				BFFBFECD1BD995960004CC87 /* LHSConnectionConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +732,7 @@
 		5D3CD6D21AA0F4B300987CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -716,6 +757,7 @@
 		5D3CD6D31AA0F4B300987CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
