@@ -7,8 +7,6 @@
 //  Based on https://github.com/robbiehanson/CocoaAsyncSocket
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for CocoaAsyncSocket.
 FOUNDATION_EXPORT double SuperSocketVersionNumber;
 

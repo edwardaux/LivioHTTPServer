@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BFFBFEA51BD98FD70004CC87"
-               BuildableName = "SuperSocket Mac.framework"
+               BuildableName = "SuperSocket.framework"
                BlueprintName = "SuperSocket Mac"
                ReferencedContainer = "container:SuperSocket.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFFBFEA51BD98FD70004CC87"
-            BuildableName = "SuperSocket Mac.framework"
+            BuildableName = "SuperSocket.framework"
             BlueprintName = "SuperSocket Mac"
             ReferencedContainer = "container:SuperSocket.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFFBFEA51BD98FD70004CC87"
-            BuildableName = "SuperSocket Mac.framework"
+            BuildableName = "SuperSocket.framework"
             BlueprintName = "SuperSocket Mac"
             ReferencedContainer = "container:SuperSocket.xcodeproj">
          </BuildableReference>
