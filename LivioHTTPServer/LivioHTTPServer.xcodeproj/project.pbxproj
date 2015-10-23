@@ -516,9 +516,9 @@
 			productReference = 5D3CD6C81AA0F4B300987CC1 /* LivioHTTPServer-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5D4833961A9E574400252386 /* LivioHTTPServer */ = {
+		5D4833961A9E574400252386 /* LivioHTTPServer iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D4833AD1A9E574400252386 /* Build configuration list for PBXNativeTarget "LivioHTTPServer" */;
+			buildConfigurationList = 5D4833AD1A9E574400252386 /* Build configuration list for PBXNativeTarget "LivioHTTPServer iOS" */;
 			buildPhases = (
 				5D4833921A9E574400252386 /* Sources */,
 				5D4833931A9E574400252386 /* Frameworks */,
@@ -531,7 +531,7 @@
 			);
 			dependencies = (
 			);
-			name = LivioHTTPServer;
+			name = "LivioHTTPServer iOS";
 			productName = CocoaHTTPServer;
 			productReference = 5D4833971A9E574400252386 /* LivioHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
@@ -589,7 +589,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D4833961A9E574400252386 /* LivioHTTPServer */,
+				5D4833961A9E574400252386 /* LivioHTTPServer iOS */,
 				5D4834531A9E7B6900252386 /* LivioHTTPServerTests */,
 				5D3CD6BD1AA0F4B300987CC1 /* LivioHTTPServer-Mac */,
 				5D3CD6C71AA0F4B300987CC1 /* LivioHTTPServer-MacTests */,
@@ -723,7 +723,7 @@
 		};
 		5D48345C1A9E7B6900252386 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D4833961A9E574400252386 /* LivioHTTPServer */;
+			target = 5D4833961A9E574400252386 /* LivioHTTPServer iOS */;
 			targetProxy = 5D48345B1A9E7B6900252386 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -738,6 +738,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -764,6 +765,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "LivioHTTPServer-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -909,7 +911,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/joel/Projects/SDL/LivioHTTPServer/Carthage/Build/iOS,
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = LivioHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -930,7 +932,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/joel/Projects/SDL/LivioHTTPServer/Carthage/Build/iOS,
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = LivioHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -996,7 +998,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D4833AD1A9E574400252386 /* Build configuration list for PBXNativeTarget "LivioHTTPServer" */ = {
+		5D4833AD1A9E574400252386 /* Build configuration list for PBXNativeTarget "LivioHTTPServer iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D4833AE1A9E574400252386 /* Debug */,

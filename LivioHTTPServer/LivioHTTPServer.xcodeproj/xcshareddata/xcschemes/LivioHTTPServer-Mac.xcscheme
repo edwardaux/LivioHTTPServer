@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D4833961A9E574400252386"
-               BuildableName = "LivioHTTPServer.framework"
-               BlueprintName = "LivioHTTPServer"
-               ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D4834531A9E7B6900252386"
-               BuildableName = "LivioHTTPServerTests.xctest"
-               BlueprintName = "LivioHTTPServerTests"
+               BlueprintIdentifier = "5D3CD6BD1AA0F4B300987CC1"
+               BuildableName = "LivioHTTPServer_Mac.framework"
+               BlueprintName = "LivioHTTPServer-Mac"
                ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D4834531A9E7B6900252386"
-               BuildableName = "LivioHTTPServerTests.xctest"
-               BlueprintName = "LivioHTTPServerTests"
+               BlueprintIdentifier = "5D3CD6C71AA0F4B300987CC1"
+               BuildableName = "LivioHTTPServer-MacTests.xctest"
+               BlueprintName = "LivioHTTPServer-MacTests"
                ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D4833961A9E574400252386"
-            BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintIdentifier = "5D3CD6BD1AA0F4B300987CC1"
+            BuildableName = "LivioHTTPServer_Mac.framework"
+            BlueprintName = "LivioHTTPServer-Mac"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D4833961A9E574400252386"
-            BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintIdentifier = "5D3CD6BD1AA0F4B300987CC1"
+            BuildableName = "LivioHTTPServer_Mac.framework"
+            BlueprintName = "LivioHTTPServer-Mac"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D4833961A9E574400252386"
-            BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintIdentifier = "5D3CD6BD1AA0F4B300987CC1"
+            BuildableName = "LivioHTTPServer_Mac.framework"
+            BlueprintName = "LivioHTTPServer-Mac"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
