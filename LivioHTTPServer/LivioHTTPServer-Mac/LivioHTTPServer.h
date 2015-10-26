@@ -46,23 +46,25 @@ FOUNDATION_EXPORT const unsigned char LivioHTTPServer_MacVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <LivioHTTPServer_Mac/PublicHeader.h>
 
 // MIME
-#import <LivioHTTPServer-Mac/MultipartFormDataParser.h>
-#import <LivioHTTPServer-Mac/MultipartMessageHeader.h>
-#import <LivioHTTPServer-Mac/MultipartMessageHeaderField.h>
+#import <LivioHTTPServer/LHSMultipartFormDataParser.h>
+#import <LivioHTTPServer/LHSMultipartMessageHeader.h>
+#import <LivioHTTPServer/LHSMultipartMessageHeaderField.h>
 
 // Responses
-#import <LivioHTTPServer-Mac/HTTPAsyncFileResponse.h>
-#import <LivioHTTPServer-Mac/HTTPDataResponse.h>
-#import <LivioHTTPServer-Mac/HTTPDynamicFileResponse.h>
-#import <LivioHTTPServer-Mac/HTTPErrorResponse.h>
-#import <LivioHTTPServer-Mac/HTTPFileResponse.h>
-#import <LivioHTTPServer-Mac/HTTPRedirectResponse.h>
+#import <LivioHTTPServer/LHSAsyncFileResponse.h>
+#import <LivioHTTPServer/LHSDataResponse.h>
+#import <LivioHTTPServer/LHSDynamicFileResponse.h>
+#import <LivioHTTPServer/LHSErrorResponse.h>
+#import <LivioHTTPServer/LHSFileResponse.h>
+#import <LivioHTTPServer/LHSRedirectResponse.h>
 
 // Requests
-#import <LivioHTTPServer-Mac/HTTPAuthenticationRequest.h>
+#import <LivioHTTPServer/LHSAuthenticationRequest.h>
 
 // Server
-#import <LivioHTTPServer-Mac/HTTPConnection.h>
-#import <LivioHTTPServer-Mac/HTTPMessage.h>
-#import <LivioHTTPServer-Mac/HTTPServer.h>
-#import <LivioHTTPServer-Mac/WebSocket.h>
+#import <LivioHTTPServer/LHSConnection.h>
+#import <LivioHTTPServer/LHSConnectionConfig.h>
+#import <LivioHTTPServer/LHSMessage.h>
+#import <LivioHTTPServer/LHSServer.h>
+#import <LivioHTTPServer/LHSWebSocket.h>
+#import <LivioHTTPServer/LHSWebSocketDelegate.h>
