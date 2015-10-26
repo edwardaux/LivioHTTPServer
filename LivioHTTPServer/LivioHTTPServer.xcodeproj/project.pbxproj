@@ -74,6 +74,9 @@
 		5D77F9D71B56E20B0013F9A7 /* SuperSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D77F9D61B56E20B0013F9A7 /* SuperSocket.framework */; };
 		5D77FA3F1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77FA3E1B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF22FB781BDDFF2400D66328 /* LHSConnectionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF22FB791BDDFF2F00D66328 /* LHSServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF22FB7A1BDDFF2F00D66328 /* LivioHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834471A9E6A8200252386 /* LivioHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFBFEBC1BD995960004CC87 /* NSData+LHSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834021A9E6A3900252386 /* NSData+LHSData.m */; };
 		BFFBFEBD1BD995960004CC87 /* NSNumber+LHSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834041A9E6A3900252386 /* NSNumber+LHSNumber.m */; };
 		BFFBFEBE1BD995960004CC87 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834061A9E6A3900252386 /* DDRange.m */; };
@@ -441,6 +444,9 @@
 				5D3CD6E21AA0F57700987CC1 /* LHSFileResponse.h in Headers */,
 				5D3CD6E51AA0F58C00987CC1 /* LHSConnection.h in Headers */,
 				5D3CD6DF1AA0F57700987CC1 /* LHSDataResponse.h in Headers */,
+				BF22FB791BDDFF2F00D66328 /* LHSServerDelegate.h in Headers */,
+				BF22FB7A1BDDFF2F00D66328 /* LivioHTTPServer.h in Headers */,
+				BF22FB781BDDFF2400D66328 /* LHSConnectionConfig.h in Headers */,
 				5D3CD6D81AA0F55600987CC1 /* NSNumber+LHSNumber.h in Headers */,
 				5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */,
 				5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer.h in Headers */,
