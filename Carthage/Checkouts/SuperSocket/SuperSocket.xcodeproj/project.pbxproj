@@ -28,7 +28,7 @@
 		5D77F9C81B55A13A0013F9A7 /* STCPWritePacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9C61B55A13A0013F9A7 /* STCPWritePacket.m */; };
 		5D77F9CF1B55A8B30013F9A7 /* STCPSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9CE1B55A8B30013F9A7 /* STCPSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D77F9D21B55AAD80013F9A7 /* SUDPSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9D11B55AAD80013F9A7 /* SUDPSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFBFEA91BD98FD70004CC87 /* SuperSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFBFEA81BD98FD70004CC87 /* SuperSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD94EF11BFFD93E004F0576 /* SuperSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9991B5597510013F9A7 /* SuperSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFBFEAE1BD990D80004CC87 /* STCPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9961B5597510013F9A7 /* STCPSocket.m */; };
 		BFFBFEAF1BD990D80004CC87 /* STCPSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9BE1B55A0CC0013F9A7 /* STCPSocketPreBuffer.m */; };
 		BFFBFEB01BD990D80004CC87 /* STCPReadPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9C21B55A10B0013F9A7 /* STCPReadPacket.m */; };
@@ -79,8 +79,6 @@
 		5D77F9CE1B55A8B30013F9A7 /* STCPSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STCPSocketDelegate.h; path = SuperSocket/STCPSocketDelegate.h; sourceTree = SOURCE_ROOT; };
 		5D77F9D11B55AAD80013F9A7 /* SUDPSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUDPSocketDelegate.h; path = SuperSocket/SUDPSocketDelegate.h; sourceTree = SOURCE_ROOT; };
 		BFFBFEA61BD98FD70004CC87 /* SuperSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFFBFEA81BD98FD70004CC87 /* SuperSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperSocket.h; sourceTree = "<group>"; };
-		BFFBFEAA1BD98FD70004CC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 			children = (
 				5D48330C1A9D074D00252386 /* SuperSocket */,
 				5D77F9A91B55992D0013F9A7 /* SuperSocketTests */,
-				BFFBFEA71BD98FD70004CC87 /* SuperSocket */,
 				5D48330B1A9D074D00252386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,15 +203,6 @@
 			name = Internal;
 			sourceTree = "<group>";
 		};
-		BFFBFEA71BD98FD70004CC87 /* SuperSocket */ = {
-			isa = PBXGroup;
-			children = (
-				BFFBFEA81BD98FD70004CC87 /* SuperSocket.h */,
-				BFFBFEAA1BD98FD70004CC87 /* Info.plist */,
-			);
-			path = SuperSocket;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,8 +228,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD94EF11BFFD93E004F0576 /* SuperSocket.h in Headers */,
 				BFFBFEB61BD991800004CC87 /* STCPSocketDelegate.h in Headers */,
-				BFFBFEA91BD98FD70004CC87 /* SuperSocket.h in Headers */,
 				BFFBFEB81BD991800004CC87 /* SUDPSocketDelegate.h in Headers */,
 				BFFBFEB91BD991800004CC87 /* SUDPSocket.h in Headers */,
 				BFFBFEB71BD991800004CC87 /* STCPSocket.h in Headers */,
@@ -652,6 +640,7 @@
 				BFFBFEAD1BD98FD70004CC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
