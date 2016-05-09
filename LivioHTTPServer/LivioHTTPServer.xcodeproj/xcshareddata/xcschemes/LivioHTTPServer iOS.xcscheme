@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D4833961A9E574400252386"
                BuildableName = "LivioHTTPServer.framework"
-               BlueprintName = "LivioHTTPServer"
+               BlueprintName = "LivioHTTPServer iOS"
                ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D4833961A9E574400252386"
             BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintName = "LivioHTTPServer iOS"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +80,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D4833961A9E574400252386"
             BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintName = "LivioHTTPServer iOS"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +98,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D4833961A9E574400252386"
             BuildableName = "LivioHTTPServer.framework"
-            BlueprintName = "LivioHTTPServer"
+            BlueprintName = "LivioHTTPServer iOS"
             ReferencedContainer = "container:LivioHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
