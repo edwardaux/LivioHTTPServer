@@ -12,7 +12,6 @@
 		5D10E5B51BB3258C00E9A728 /* SuperSocket.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D10E5B11BB3256500E9A728 /* SuperSocket.framework.dSYM */; };
 		5D38109D1BA8927600B41AE3 /* LHSConnectionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D38109E1BA8927600B41AE3 /* LHSConnectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */; };
-		5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3CD6C21AA0F4B300987CC1 /* LivioHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D3CD6C91AA0F4B300987CC1 /* LivioHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3CD6BE1AA0F4B300987CC1 /* LivioHTTPServer.framework */; };
 		5D3CD6D01AA0F4B300987CC1 /* LivioHTTPServer_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD6CF1AA0F4B300987CC1 /* LivioHTTPServer_MacTests.m */; };
 		5D3CD6D71AA0F55200987CC1 /* NSData+LHSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834011A9E6A3900252386 /* NSData+LHSData.h */; };
@@ -449,7 +448,6 @@
 				BF22FB781BDDFF2400D66328 /* LHSConnectionConfig.h in Headers */,
 				5D3CD6D81AA0F55600987CC1 /* NSNumber+LHSNumber.h in Headers */,
 				5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */,
-				5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer.h in Headers */,
 				5D3CD6E71AA0F58C00987CC1 /* LHSServer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
