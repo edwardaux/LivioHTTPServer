@@ -389,7 +389,7 @@
     dispatch_sync(serverQueue, ^{ @autoreleasepool {
         success = [asyncSocket acceptOnInterface:interface port:port error:&err];
         if (success) {
-            NSLog(@"%s: Started HTTP server on port %hu", __FILE__, [asyncSocket localPort]);
+            // NSLog(@"%s: Started HTTP server on port %hu", __FILE__, [asyncSocket localPort]);
             
             isRunning = YES;
             [self publishBonjour];

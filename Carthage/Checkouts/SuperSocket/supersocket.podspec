@@ -7,4 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Asynchronous socket networking library forked from CocoaAsyncSocket'
   spec.source       = { :git => 'https://github.com/livio/supersocket.git', :tag => spec.version.to_s }
   spec.source_files = 'SuperSocket/*.{h,m}'
+  spec.ios.deployment_target = '8.0'
+  spec.osx.deployment_target = '10.9'
 end
