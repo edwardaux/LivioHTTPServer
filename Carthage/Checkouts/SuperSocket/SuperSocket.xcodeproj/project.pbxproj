@@ -28,6 +28,12 @@
 		5D77F9C81B55A13A0013F9A7 /* STCPWritePacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9C61B55A13A0013F9A7 /* STCPWritePacket.m */; };
 		5D77F9CF1B55A8B30013F9A7 /* STCPSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9CE1B55A8B30013F9A7 /* STCPSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D77F9D21B55AAD80013F9A7 /* SUDPSocketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9D11B55AAD80013F9A7 /* SUDPSocketDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0B33451C03F03E00633F54 /* STCPSocketPreBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9BD1B55A0CC0013F9A7 /* STCPSocketPreBuffer.h */; };
+		BF0B33461C03F03E00633F54 /* STCPReadPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9C11B55A10B0013F9A7 /* STCPReadPacket.h */; };
+		BF0B33471C03F03E00633F54 /* STCPWritePacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9C51B55A13A0013F9A7 /* STCPWritePacket.h */; };
+		BF0B33481C03F03E00633F54 /* STCPSpecialPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1DC7F61B754B6100236EE6 /* STCPSpecialPacket.h */; };
+		BF0B33491C03F03E00633F54 /* SUDPSendPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9B41B559FF90013F9A7 /* SUDPSendPacket.h */; };
+		BF0B334A1C03F03E00633F54 /* SUDPSpecialPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9B81B55A0690013F9A7 /* SUDPSpecialPacket.h */; };
 		BFD94EF11BFFD93E004F0576 /* SuperSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D77F9991B5597510013F9A7 /* SuperSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFBFEAE1BD990D80004CC87 /* STCPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9961B5597510013F9A7 /* STCPSocket.m */; };
 		BFFBFEAF1BD990D80004CC87 /* STCPSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D77F9BE1B55A0CC0013F9A7 /* STCPSocketPreBuffer.m */; };
@@ -233,6 +239,12 @@
 				BFFBFEB81BD991800004CC87 /* SUDPSocketDelegate.h in Headers */,
 				BFFBFEB91BD991800004CC87 /* SUDPSocket.h in Headers */,
 				BFFBFEB71BD991800004CC87 /* STCPSocket.h in Headers */,
+				BF0B33451C03F03E00633F54 /* STCPSocketPreBuffer.h in Headers */,
+				BF0B33461C03F03E00633F54 /* STCPReadPacket.h in Headers */,
+				BF0B33471C03F03E00633F54 /* STCPWritePacket.h in Headers */,
+				BF0B33481C03F03E00633F54 /* STCPSpecialPacket.h in Headers */,
+				BF0B33491C03F03E00633F54 /* SUDPSendPacket.h in Headers */,
+				BF0B334A1C03F03E00633F54 /* SUDPSpecialPacket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
